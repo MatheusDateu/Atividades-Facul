@@ -8,4 +8,5 @@ void main (){
 	scanf("%d",&num2);
 	soma=num1+num2;
 	printf("%d+%d= %d",num1,num2,soma);
+	//teste
 }
