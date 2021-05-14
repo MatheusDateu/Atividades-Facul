@@ -1,0 +1,12 @@
+program litrosdegasolina_abastecido;
+    var
+        valorgasolina,valorpago,totalabastecido:real;
+    begin
+        write('informe o valor pago pelo motorista');
+        read(valorpago);
+        write('informe o valor do litro da gasolina');
+        read(valorgasolina);
+        totalabastecido := valorpago/valorgasolina;
+        write('A quantidade de litro abastecidoé=', totalabastecido:0:2);
+    end.
+
